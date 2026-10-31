@@ -74,16 +74,6 @@ requirements.txt  Python packages
 
 On Mac or Linux, activate the environment with `source venv/bin/activate`.
 
-## Using your own API key (when real extraction is connected)
-
-Create a file named `.env` in the project folder:
-
-```
-ANTHROPIC_API_KEY=your_key_here
-```
-
-The `.env` file is listed in `.gitignore` and must never be committed.
-
 ## Roadmap
 
 - Real invoice extraction with Claude vision (photos, PDFs, messy scans)
